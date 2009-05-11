@@ -1,6 +1,6 @@
 = btexty
 
-Description goes here.
+btexty is a ruby gem for accessing the http://btexty.com/ API. 
 
 == Copyright
 
