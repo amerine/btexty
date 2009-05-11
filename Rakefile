@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "btexty"
-    gem.summary = %Q{TODO}
+    gem.summary = "super simple ruby interface for the btexty api"
     gem.email = "mark@amerine.net"
     gem.homepage = "http://github.com/amerine/btexty"
     gem.authors = ["Mark Turner"]
