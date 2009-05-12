@@ -5,11 +5,11 @@ require File.dirname(__FILE__) + '/btexty/data'
 
 class BTexty
   include HTTParty
-  format :json
+  format :xml
   
   attr_accessor :phone_number, :pin, :method
   
-  def initialize(phone_number, pin, method='json')
+  def initialize(phone_number, pin, method='xml')
     clean_phone_number(phone_number)
     @phone_number, @pin, @method = phone_number, pin, method
   end
