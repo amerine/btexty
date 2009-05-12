@@ -25,7 +25,7 @@ class BTexty
   end
   
   def messages
-    get('inbox/index')
+    messages = get('inbox/index')['response']['body']
   end
   
   private
