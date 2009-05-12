@@ -29,16 +29,7 @@ class BTexty
     messages = get('inbox/index')['response']['body']['messages']
     messages.each do |message|
       process_message = Message.new
-      process_message.content = message['message']['content']
-      process_message.thread = message['message']['thread']
-      process_message.sender = message['message']['sender']
-      process_message.recipients = message['message']['recipients']
-      process_message.sender_name = message['message']['sender_name']
-      process_message.recipients_names = message['message']['recipients_names']
-      process_message.is_read = message['message']['is_read']
-      process_message.wall = message['message']['wall']
-      process_message.created_on = message['message']['created_on']
-      process_message.id = message['message']['id']
+      process_message.process_message(message)
       return_messages << process_message
     end
     return_messages
