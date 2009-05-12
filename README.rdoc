@@ -1,6 +1,28 @@
-= btexty
+= btexty - API wrapper for the BTexty API
 
 btexty is a ruby gem for accessing the http://btexty.com/ API. 
+
+=== Installation 
+		
+		sudo gem install jnunemaker-httparty --source http://gems.github.com
+		
+
+=== Usage
+
+		require 'btexty'
+		require 'pp'
+
+		btexty = BTexty.new('+15419777188', 12312)
+		puts btexty.unread
+		btexty.messages.each do |message|
+		  pp message.content, message.created_on
+		end
+		
+Produces
+
+		1
+		"Welcome to btexty! Click on the link we just sent you as text message to activate your account."
+		"2009-05-11 22:32:43.643042"
 
 == Copyright
 
