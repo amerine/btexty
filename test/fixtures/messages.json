@@ -1,0 +1,21 @@
+{
+"response":{
+"body":{
+"messages":[{
+"message":{
+"content":"Welcome to btexty! Click on the link we just sent you as text message to activate your account.",
+"thread":"9xknm7nn3icqa3qnqxni0uwaooz6k6uiupbuij7tao38b4ax1o2b57dsx0onphx5",
+"sender":"+18579989143",
+"recipients":"+15419777188",
+"sender_name":"btexty",
+"recipients_names":"me",
+"is_read":false,
+"wall":false,
+"created_on":"2009-05-11 22:32:43.643042",
+"id":"agZtb3dhbGxyIQsSB0FjY291bnQYAgwLEgxTaG9ydE1lc3NhZ2UY_50CDA"}
+}
+]}
+,
+"response_code":0,
+"response_message":"Ok"}
+}
