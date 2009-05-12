@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{btexty}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Mark Turner"]
@@ -23,6 +23,8 @@ Gem::Specification.new do |s|
      "lib/btexty.rb",
      "lib/btexty/data.rb",
      "test/btexty_test.rb",
+     "test/fixtures/messages.json",
+     "test/fixtures/unread.json",
      "test/test_helper.rb"
   ]
   s.homepage = %q{http://github.com/amerine/btexty}
