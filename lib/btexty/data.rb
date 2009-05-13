@@ -16,6 +16,10 @@ class BTexty
       self.created_on = message['message']['created_on']
       self.id = message['message']['id']
     end
+    
+    def send
+      self.class.post('http://www.btexty.com/api/json/send')      
+    end
   end
   
 end
